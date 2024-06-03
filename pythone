@@ -1,0 +1,11 @@
+# Example code for creating a chatbot in Python
+def chatbot():
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == 'bye':
+            print("Chatbot: Bye! See you soon!")
+            break
+        else:
+            print("Chatbot: Great, I'm still learning to respond but I'll get there soon!")
+
+chatbot()
